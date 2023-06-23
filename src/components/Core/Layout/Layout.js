@@ -10,7 +10,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Custer Next Landing Template</title>
+        <title>ESCUELA DE ARTES PLÁSTICAS VALENTIN HERNÁNDEZ USECHE</title>
         <link rel="icon" type="image/png" href={favicon.src} />
         <meta
           name="viewport"
@@ -33,7 +33,7 @@ export default function Layout({ children }) {
         ) : null}
         {children}
         { theme.footerHide ? null : <FooterSection type={theme.footerType} />}
-        
+
       </div>
     </>
   );
