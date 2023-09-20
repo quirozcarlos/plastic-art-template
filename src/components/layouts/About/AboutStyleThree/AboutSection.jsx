@@ -18,18 +18,15 @@ const AboutSection = ({ className }) => {
                   About Custer
                 </h6>
                 <h2 className="title">
-                  We are creating modern <br className="d-none d-xl-block" />
-                  &amp; high quality software{" "}
-                  <br className="d-none d-xl-block" /> for your business
+                  Reseña Histórica <br className="d-none d-xl-block" />
                 </h2>
                 <p>
-                  An enim nullam tempor sapien gravida donec enim ipsum porta
-                  justo <br className="d-none d-xl-block" /> integer at odio
-                  velna vitae auctor integer congue magna at pretium{" "}
+                  En la década de los sesenta, el Táchira tenía escasos lazos artísticos con la región capital y carecía de una escena artística significativa. A pesar de los cambios sustanciales en la sociedad debido al auge de la televisión en Venezuela, no había una relación directa con la globalización que vendría décadas después. La actividad artística en la región no estaba a la par de ciudades cercanas al epicentro cultural de la capital, lo que relegaba la pintura a un nivel casi doméstico.
+                  <br className="d-none d-xl-block" /> <br className="d-none d-xl-block" />
+                  El origen de la Escuela de Artes Plásticas de San Cristóbal se encuentra en el taller de artes y oficios de Capacho, fundado por el Gobernador Abel Montilla después de inspirarse en una visita a la Escuela Quiteña en Ecuador en 1942. En este taller, Valentín Hernández Useche comenzó a desarrollar sus primeros criterios artísticos, lo que posteriormente condujo a la creación del principal centro de arte en la capital del estado, la Escuela de Artes Plásticas de San Cristóbal.
+                  <br className="d-none d-xl-block" /> <br className="d-none d-xl-block" />
+                  Bajo la gestión del gobernador Edilberto Escalante en 1962, y a petición del profesor Valentín Hernández Useche, se estableció la Escuela de Artes Plásticas de San Cristóbal con el objetivo de promover la pintura en la región. Dado que había escasez de maestros venezolanos en la zona, la formación inicial dependió de profesores de Cúcuta, con excepciones como los maestros Elbano Méndez Osuna, Manuel Osorio Velasco y Valentín Hernández Useche. A pesar de las limitaciones en el desarrollo artístico, esta época vio la formación de la agrupación pictórica "La Cueva Pictórica," que incluyó a artistas como Ulacio Sandoval, Agustín Guerrero, Freddy Pereira, Jesús Aliviares, Juana Michel Angelli y Rafael Guerrero. Aunque efímera, esta agrupación dejó un legado de renovación en la pintura regional en un momento sin movimiento vanguardista.
                 </p>
-                <a className="btn btn-primary btn-primary-hvr" href="#">
-                  Get Started
-                </a>
               </div>
             </div>
           </div>

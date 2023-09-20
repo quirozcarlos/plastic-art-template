@@ -8,13 +8,13 @@ const ContentSection = () => {
           <div className="col-xl-5 offset-xl-2 col-lg-6 col-md-8 col-sm-10 col-xs-11 order-lg-2">
             <div className="content-section-19__image-group">
               <img
-                src="./image/about/content-1.png"
+                src="./image/school/salon1.jpg"
                 alt="content-img"
                 className="mw-100"
               />
               <div className="content-section-19__image-group--card">
                 <img
-                  src="./image/about/content-1-card.png"
+                  src="./image/school/salon2.jpeg"
                   alt="image-card"
                   className="w-100"
                 />
@@ -23,11 +23,10 @@ const ContentSection = () => {
           </div>
           <div className="col-xl-5 col-lg-6 col-md-8 col-sm-10 col-xs-11 order-lg-1">
             <div className="block-title content-section-19__content">
-              <h2 className="title">Custer manage and grow your business</h2>
+              <h2 className="title">Explora la Infraestructura Creativa: Salones Especializados en la Escuela de Arte</h2>
               <p className="text-dark">
-                An enim nullam tempor sapien gravida donec enim ipsum
-                <br className="d-none d-xs-block" /> porta justo integer at odio
-                velna vitae auctor integer congue{" "}
+                Un pequeño vistazo a la infraestructura de la Escuela de Arte,
+                entre ellos destacamos espacios especializados como:
               </p>
               <ul className="content-section-19__content--list">
                 <li>
@@ -35,48 +34,64 @@ const ContentSection = () => {
                     src="./image/about/check.svg"
                     className="make-it-inline"
                     alt="check"
-                  />{" "}
-                  Boost SEO
+                  />{" "}&nbsp;
+                  Salon de clase teórica.
                 </li>
                 <li>
                   <img
                     src="./image/about/check.svg"
                     className="make-it-inline"
                     alt="check"
-                  />{" "}
-                  Manage Buying
+                  />{" "}&nbsp;
+                  Taller de pintura.
                 </li>
                 <li>
                   <img
                     src="./image/about/check.svg"
                     className="make-it-inline"
                     alt="check"
-                  />{" "}
-                  Visual Reviews
+                  />{" "}&nbsp;
+                  Taller de gráfica.
                 </li>
                 <li>
                   <img
                     src="./image/about/check.svg"
                     className="make-it-inline"
                     alt="check"
-                  />{" "}
-                  Buyer Protection
+                  />{" "}&nbsp;
+                  Taller de modelado.
                 </li>
                 <li>
                   <img
                     src="./image/about/check.svg"
                     className="make-it-inline"
                     alt="check"
-                  />{" "}
-                  Social Sharing
+                  />{" "}&nbsp;
+                  Taller de talla en madera.
                 </li>
                 <li>
                   <img
                     src="./image/about/check.svg"
                     className="make-it-inline"
                     alt="check"
-                  />{" "}
-                  Virtual Card
+                  />{" "}&nbsp;
+                  Taller  de escultura.
+                </li>
+                <li>
+                  <img
+                    src="./image/about/check.svg"
+                    className="make-it-inline"
+                    alt="check"
+                  />{" "}&nbsp;
+                  Taller  de cerámica.
+                </li>
+                <li>
+                  <img
+                    src="./image/about/check.svg"
+                    className="make-it-inline"
+                    alt="check"
+                  />{" "}&nbsp;
+                  Taller uso múltiple.
                 </li>
               </ul>
             </div>

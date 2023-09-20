@@ -33,9 +33,11 @@ const WidgetColumn = ({
         </div>
       ) : null}
       <div className="widget-text">
-        <h3 className={`widget-title${titleClass ? " " + titleClass : ""}`}>
-          <SuperTag value={title} />
-        </h3>
+        {title && (
+          <h3 className={`widget-title${titleClass ? " " + titleClass : ""}`}>
+            <SuperTag value={title} />
+          </h3>
+        )}
         <p className={`widget-text${textClass ? " " + textClass : ""}`}>
           <SuperTag value={text} />
         </p>

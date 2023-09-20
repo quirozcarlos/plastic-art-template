@@ -1,21 +1,21 @@
 import React from "react";
 import { SuperTag } from "~components/Core";
 
-const textDefault =
-  "An enim nullam tempor sapien gravida donec enim ipsum <br className='d-none d-xl-block' /> porta justo congue purus pretium ligula";
+const textDefault = "";
 const columnDefault = "col-xl-8 col-lg-8 col-md-10 col-sm-11 col-xs-11";
 
 const Breadcrumb = ({
   column = columnDefault,
   activePage,
   title,
+  img,
   text = textDefault,
 }) => {
   return (
     <div className="breadcrumb-section">
       <div className="breadcrumb-section__bg-shape">
         <img
-          src="./image/breadcrumb/breadcrumb-shape.png"
+          src={img ?? "./image/breadcrumb/breadcrumb-shape.png"}
           alt="breadcrumb-shape"
         />
       </div>
@@ -50,7 +50,7 @@ const Breadcrumb = ({
               </p>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb justify-content-center">
-                  <li className="breadcrumb-item">Home</li>
+                  <li className="breadcrumb-item">Inicio</li>
                   <li className="breadcrumb-item" aria-current="page">
                     {activePage}
                   </li>

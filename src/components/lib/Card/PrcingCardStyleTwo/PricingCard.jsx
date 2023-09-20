@@ -1,7 +1,8 @@
 import React from "react";
+import Link from "next/link";
 import { ReactSVG } from "react-svg";
 
-const PricingCard = ({ plan, price, priceIcon, active, list }) => {
+const PricingCard = ({ plan, price, priceIcon, active, list, subtitle }) => {
   return (
     <div className={`card-pricing--02${active ? " active" : ""}`}>
       <div className="card-pricing--02__head">
@@ -11,8 +12,8 @@ const PricingCard = ({ plan, price, priceIcon, active, list }) => {
           src={priceIcon}
           alt="pricing-icon"
         />
-        <h2 className="card-pricing--02__price">${price}</h2>
-        <span className="card-pricing--02__plan-text text-dark">Per Month</span>
+        <h2 className="card-pricing--02__price" />
+        <span className="card-pricing--02__plan-text text-dark">{subtitle}</span>
       </div>
 
       <div className="d-flex justify-content-center">
@@ -34,14 +35,15 @@ const PricingCard = ({ plan, price, priceIcon, active, list }) => {
         )}
       </div>
       <div className="card-pricing--02__button text-center">
-        <a
-          href="#"
-          className={`btn border-2 btn-rounded btn-primary-outline${
-            active ? "-reverse" : ""
-          }`}
-        >
-          Get Started
-        </a>
+        <Link href='/contacto'>
+          <a
+            className={`btn border-2 btn-rounded btn-primary-outline${
+              active ? "-reverse" : ""
+            }`}
+          >
+            Contacto
+          </a>
+        </Link>
       </div>
     </div>
   );

@@ -2,25 +2,25 @@
   {
     "id": "1fct",
     "colorClass": "text-bule",
-    "title": "<span class='counter'>28</span>K",
-    "text": "Total Users"
+    "title": "",
+    "text": "\"El arte es una manifestación del alma que busca comunicarse con el mundo.\" <br /><br /> Armando Reverón (1889-1954)"
   },
   {
     "id": "2fct",
     "colorClass": "text-yellow",
-    "title": "<span class='counter'>13</span>K",
-    "text": "Lifetime Downloads"
+    "title": "",
+    "text": "\"A través del pincel, puedo expresar lo que mi corazón siente y mi mente imagina.\" <br /><br /> Carlos Cruz-Diez (1923-2019)"
   },
   {
     "id": "3fct",
     "colorClass": "text-green",
-    "title": "<span class='counter'>68</span>K",
-    "text": "Social Likes"
+    "title": "",
+    "text": "\"En cada trazo, plasmo la esencia y el color de nuestra tierra venezolana.\" <br /><br /> Tito Salas (1887-1974)"
   },
   {
     "id": "4fct",
     "colorClass": "text-red",
-    "title": "<span class='counter'>10</span>K",
-    "text": "5 Star Ratings"
+    "title": "",
+    "text": "\"El arte no tiene límites ni fronteras, es un lenguaje universal que une a la humanidad.\" <br /><br /> Marisol Escobar (1930-2016)"
   }
 ]

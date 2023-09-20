@@ -7,12 +7,11 @@ const TeamSection = ({ className }) => {
     <div className={`team-section-01 ${className}`}>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-xxl-4 col-lg-6 col-md-9 col-xs-11">
+          <div className="col-xxl-6 col-lg-6 col-md-9 col-xs-11">
             <div className="section-title section-title--team-01 text-center">
-              <h2 className="title">Our qualified team</h2>
+              <h2 className="title">Explora la Creatividad: Artistas y Sus Obras Maestras</h2>
               <p className="text-dark">
-                Fully layered dolor sit amet, consectetur Facere, nobis, id
-                expedita dolores officiis laboriosam.
+                Explora nuestra galería permanente con obras creadas con el talento de nuestros artistas del estado Táchira para tu disfrute y apreciación.
               </p>
             </div>
           </div>

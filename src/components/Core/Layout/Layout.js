@@ -28,6 +28,7 @@ export default function Layout({ children }) {
             column={theme?.innerPage?.breadcrumbColumn}
             title={theme?.innerPage?.breadcrumbTitle}
             text={theme?.innerPage?.breadcrumbText}
+            img={theme?.innerPage?.img}
             activePage = {theme?.innerPage?.activePage}
           />
         ) : null}

@@ -12,7 +12,6 @@ const GlobalProvider = ({children}) =>{
       ...themeConfig,
     });
   };
-  // console.log(GlobalThemeContext);
   return (<GlobalContext.Provider value={{theme,changeTheme}}>
     {children}
   </GlobalContext.Provider>)

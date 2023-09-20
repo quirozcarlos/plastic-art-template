@@ -4,41 +4,26 @@ import { ReactSVG } from "react-svg";
 
 const HeroSection = () => {
   return (
-    <div className="hero-section-04">
-      <div className="hero-section-04__bg-shape">
-        <img src="./image/home-4/hero-bg.png" alt="hero image" />
+    <div className="hero-section-04" style={{ height: '80vh' }}>
+      <div className="hero-section-04__bg-shape" style={{ opacity: 1 }}>
+        {/* <img src="./image/home-4/hero-bg.png" alt="hero image" /> */}
+        <img src="./image/banners/school-place.png" alt="hero image" style={{ objectFit: 'cover' }} />
       </div>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-xl-8 col-lg-9 col-md-9 col-xs-11">
+          <div className="col-xl-11 col-lg-9 col-md-9 col-xs-11">
             <div className="hero-section-04__content hero-content text-center">
-              <h1 className="heading-light title">
-                Great way to get <br className="d-none d-md-block" /> banking
-                services easily
-              </h1>
-              <p className="text-light">
-                An enim nullam tempor sapien gravida donec enim ipsum porta{" "}
-                <br className="d-none d-md-block" /> justo congue magna at
-                pretium purus pretium ligula{" "}
-              </p>
-              <form
-                action="/"
-                className="form-subscribe-inline--01 hero-section-04__content--form"
-                method="POST"
-              >
-                <input
-                  type="email"
-                  placeholder="Enter your email address"
-                  className="form-control"
-                />
-                <button className="btn hero-btn btn-primary btn-primary-hvr">
-                  Start 14 Days Trial
-                </button>
-              </form>
+              {/* <h1 className="heading-light title">
+                VALENTÍN HERNÁNDEZ USECHE
+              </h1> */}
+              {/* <p className="text-light" style={{ fontSize: 22, fontWeight: 'bold' }}>
+                Escuela de Artes Plásticas
+              </p> */}
             </div>
             <div className="hero-section-04__image-group">
-              <img src="./image/home-4/hero.png" alt="mainimage" />
-              <div
+              {/* <img src="./image/banners/school-place.png" height={350} alt="mainimage" /> */}
+              <div style={{ height: 350 }} />
+              {/* <div
                 className="position-relative wrap"
                 data-aos="fade-up"
                 data-aos-delay={500}
@@ -50,7 +35,7 @@ const HeroSection = () => {
                     alt="chircal-bg"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

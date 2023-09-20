@@ -46,9 +46,11 @@ const Widget = ({
         <h3 className={`widget-title${titleClass ? " " + titleClass : ""}`}>
           <SuperTag value={title} />
         </h3>
-        <p className={`widget-text${textClass ? " " + textClass : ""}`}>
-          <SuperTag value={text} />
-        </p>
+        {text && (
+          <p className={`widget-text${textClass ? " " + textClass : ""}`}>
+            <SuperTag value={text} />
+          </p>
+        )}
       </div>
     </div>
   );

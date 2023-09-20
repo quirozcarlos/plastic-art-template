@@ -10,7 +10,7 @@ const FeatureSection = () => {
             <div className="row align-items-start justify-content-sm-start">
               <div className="col-xxl-6 offset-xxl-2 col-xxl-6 offset-xxl-1 col-lg-6 col-md-9 col-sm-10 col-xs-11 order-lg-2">
                 <div className="feature-section-04__image-group text-lg-center mb-mobile-lg">
-                  <img src="./image/home-4/feature.png" alt="content-img" />
+                  <img src="./image/school/objetivos.jpeg" alt="content-img" />
                   <div className="feature-section-04__image-group--shape shape-x-1">
                     <img
                       src="./image/home-4/feature-shape-1.svg"
@@ -27,16 +27,21 @@ const FeatureSection = () => {
                   data-aos-duration={800}
                 >
                   <h6 className="subtitle text-secondary mb-20">
-                    Why choose us
+                    Objetivos Institucionales
                   </h6>
                   <h2 className="title">
-                    We offer great <br className="d-nome d-xs-block" /> features
-                    in Custer
+                    Objetivo General
                   </h2>
                   <p className="text-dark">
-                    Vero homero perfecto mei ut, sonet aperiam an nec. Me vita
-                    haeo tibi que com titure viset cut.Proin tempus.{" "}
-                  </p>
+                    Brindar a los estudiantes los conocimientos teóricos y prácticos  en el ámbito de las artes plásticas,
+                    mediante una propuesta educativa integral de calidad, que promueva el desarrollo de las capacidades creativas  y
+                    de la investigación en el campo de la innovación plástica, a fin de formar artistas profesionales capaces de comprender y
+                    transformar la realidad a través de la obra plástica respondiendo a las necesidades culturales de la sociedad y
+                    participando eficientemente en el desarrollo cultural y artístico del estado y el país.
+                  </p><br />
+                  <h6 className="text-dark">
+                    El estudiante conocerá:
+                  </h6>
                 </div>
                 <div className="row feature-section-04__widget widgets-row-02">
                   {data.map(

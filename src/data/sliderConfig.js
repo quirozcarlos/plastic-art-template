@@ -71,7 +71,7 @@ export const threeColSliderConfig = {
 
 export const screenshotSlider = {
   infinite: true,
-  slidesToShow: 5,
+  slidesToShow: 23,
   slidesToScroll: 1,
   dots: true,
   arrows: false,

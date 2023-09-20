@@ -46,17 +46,17 @@ const Header = () => {
           defaultLogo={header.defaultLogo}
           customLogo={header.customLogo}
           darkLogo={header.darkLogo}
-          buttonBlock={header.doubleButton ? <HeaderDoubleButton
-              btnWrapperClasses={header?.doubleButton?.wrapperClass}
-              btnOneText={header?.doubleButton?.btnOneText}
-              btnTwoText={header?.doubleButton?.btnTwoText}
-              btnOneClasses={header?.doubleButton?.btnOneClass}
-              btnTwoClasses={header?.doubleButton?.btnTwoClass}
-            />: header.button ? <HeaderButton
-            btnWrapperClasses={header?.button?.wrapperClass}
-            btnText={header?.button?.btnText}
-            btnClasses={header?.button?.btnClass}
-          />:null}
+          // buttonBlock={header.doubleButton ? <HeaderDoubleButton
+          //     btnWrapperClasses={header?.doubleButton?.wrapperClass}
+          //     btnOneText={header?.doubleButton?.btnOneText}
+          //     btnTwoText={header?.doubleButton?.btnTwoText}
+          //     btnOneClasses={header?.doubleButton?.btnOneClass}
+          //     btnTwoClasses={header?.doubleButton?.btnTwoClass}
+          //   />: header.button ? <HeaderButton
+          //   btnWrapperClasses={header?.button?.wrapperClass}
+          //   btnText={header?.button?.btnText}
+          //   btnClasses={header?.button?.btnClass}
+          // />:null}
         />
       </Container>
     </SiteHeader>

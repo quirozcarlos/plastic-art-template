@@ -15,7 +15,7 @@ const headerConfig = {
 export default function Error() {
   return (
     <PageWrapper
-      themeConfig={{ pageWrapperClass: "theme-1", header: headerConfig }}
+      themeConfig={{ pageWrapperClass: "theme-1", header: false }}
     >
       <div className="error-section">
         <div className="container">
@@ -27,14 +27,14 @@ export default function Error() {
             </div>
             <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-8 col-sm-10 col-xs-11">
               <div className="error-section__content block-title text-center">
-                <h2 className="title">Opps! Something Wrong</h2>
-                <p className="text-dark m-0">
+                <h2 className="title">Opps! Esta página parece que no tiene un lienzo definido.</h2>
+                {/* <p className="text-dark m-0">
                   We’re sorry, the page you have looked for does not exist in
                   our database! <br className="d-none d-xxl-block" /> Maybe go
                   to our home page or try to use a search?
-                </p>
-                <Link className="btn btn-primary btn-primary-hvr" to="/#">
-                  Go Back to Home
+                </p> */}
+                <Link className="btn btn-primary btn-primary-hvr" to="/">
+                  Volver al Inicio
                 </Link>
               </div>
             </div>

@@ -27,26 +27,32 @@ const dataDefault = [
     src:"./image/home-3/screenshot/4.png",
   }
 ]
-const ScreenshotSlider = ({data=dataDefault,sliderConfig=screenshotSlider}) => {
-return(
-<div className="screenshot-slider-wrapper">
-    <SlickSlider className="screenshot-slider slider-dots-style-one" sliderConfig={sliderConfig}>
-      {data.map((item,index)=>{
-        return(
-          <div className="single-slide focus-reset" key={item.id}>
-              <div className="screenshot-image">
-                <img src={item.src} alt="ss" />
-              </div>
-          </div>
-        )
-      })}
-    </SlickSlider>
-    {/* / .Screenshot Area */}
-    <div className="phone-bg-img">
-      <img src="./image/home-3/screenshot/frame.png" alt="ss" />
+const ScreenshotSlider = ({
+  data=dataDefault,
+  sliderConfig=screenshotSlider,
+  disableFrame=false
+}) => {
+  return(
+    <div className="screenshot-slider-wrapper">
+      <SlickSlider className="screenshot-slider slider-dots-style-one" sliderConfig={sliderConfig}>
+        {data.map((item,index)=>{
+          return(
+            <div className="single-slide focus-reset" key={item?.id ?? index}>
+                <div className="screenshot-image">
+                  <img src={item.src} alt="ss" />
+                </div>
+            </div>
+          )
+        })}
+      </SlickSlider>
+      {/* / .Screenshot Area */}
+      {!disableFrame && (
+        <div className="phone-bg-img">
+          <img src="./image/home-3/screenshot/frame.png" alt="ss" />
+        </div>
+      )}
     </div>
-  </div>
-)
+  )
 }
- 
+
 export default ScreenshotSlider

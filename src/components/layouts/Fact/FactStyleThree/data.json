@@ -1,34 +1,34 @@
 [
     {
       "id":"f0301",
-      "iconImage": "./image/home-4/fact-icon-1.svg",
-      "title": "<span class='counter'>28</span>K",
+      "iconImage": "./image/home-6/icon-1.svg",
+      "title": "",
       "headingLight":"heading-light",
       "textLight":"text-light",
-      "text": "Users"
+      "text": "\"La creatividad no tiene límites, y en mi obra busco trascender lo convencional.\" <br /><br /> Héctor Poleo (1918-1989)"
     },
     {
       "id":"f0302",
-      "iconImage": "./image/home-4/fact-icon-2.svg",
+      "iconImage": "./image/home-6/s-icon-4.svg",
       "headingLight":"heading-light",
       "textLight":"text-light",
-      "title": "<span class='counter'>13</span>K",
-      "text": "Download"
+      "title": "",
+      "text": "\"Cada lienzo es una ventana a mi imaginación, un viaje en el tiempo y el espacio.\" <br /><br /> Jacobo Borges (1931-2022)"
     },
     {
       "id":"f0303",
-      "iconImage": "./image/home-4/fact-icon-3.svg",
+      "iconImage": "./image/home-6/s-icon-3.svg",
       "headingLight":"heading-light",
       "textLight":"text-light",
-      "title": "<span class='counter'>68</span>K",
-      "text": "Likes"
+      "title": "",
+      "text": "\"El arte es un medio para transmitir emociones y despertar conciencias.\" <br /><br /> Elsa Gramcko (1925-1994)"
     },
     {
       "id":"f0304",
       "iconImage": "./image/home-4/fact-icon-4.svg",
       "headingLight":"heading-light",
       "textLight":"text-light",
-      "title": "<span class='counter'>10</span>K",
-      "text": "5 Star Rating"
+      "title": "",
+      "text": "\"A través de mis esculturas, busco capturar la esencia de la vida y la naturaleza.\" <br /><br /> Francisco Narváez (1905-1982)"
     }
   ]

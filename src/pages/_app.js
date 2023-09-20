@@ -1,4 +1,4 @@
-import { Layout } from "~components"
+import { Layout } from "~components";
 import Router from "next/router";
 import AOS from "aos";
 import "node_modules/slick-carousel/slick/slick.css";
@@ -9,48 +9,45 @@ import "~scss/bootstrap.scss";
 import "~scss/main.scss";
 import "~scss/color-pallets.scss";
 import "~fonts/typography-font/typo.css";
-import { GlobalProvider , GlobalContext} from "../context/GlobalContext";
+import { GlobalProvider, GlobalContext } from "../context/GlobalContext";
 import { useEffect, useState } from "react";
 // import "@/aos/aos.css"
 import Loader from "~components/Core/Preloader";
 function MyApp({ Component, pageProps }) {
-  
-  const [loader,setLoader] = useState(true);
+  const [loader, setLoader] = useState(true);
   useEffect(() => {
-    setTimeout(function(){
+    setTimeout(function () {
       setLoader(false);
-      console.log("finished");
       AOS.init({
         easing: "ease-out-cubic",
         once: true,
-        offset: 50,
+        offset: 50
       });
-    } , 2000);
-    
+    }, 2000);
   }, []);
 
-  Router.onRouteChangeStart = (url) => {
-    // Some page has started loading
-    setLoader(true) 
-};
+  // Router.onRouteChangeStart = (url) => {
+  //   // Some page has started loading
+  //   setLoader(true);
+  // };
 
-Router.onRouteChangeComplete = (url) => {
-    // Some page has finished loading
-    setTimeout(setLoader(false) , 1000) // set state to pass to loader prop
-};
-if(loader){
-  return(<Loader show={loader}/>)
-}
-return(
-<>
-<GlobalProvider>
-      <Layout>
-      <Loader show={loader}/>
-        <Component {...pageProps} />
-      </Layout>
-      </GlobalProvider>
-</>
-      )
+  // Router.onRouteChangeComplete = (url) => {
+  //   // Some page has finished loading
+  //   setTimeout(setLoader(false), 1000); // set state to pass to loader prop
+  // };
+  if (loader) {
+    return <Loader show={loader} />;
   }
-  
-  export default MyApp
+  return (
+    <>
+      <GlobalProvider>
+        <Layout>
+          <Loader show={loader} />
+          <Component {...pageProps} />
+        </Layout>
+      </GlobalProvider>
+    </>
+  );
+}
+
+export default MyApp;

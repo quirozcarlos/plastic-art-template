@@ -16,12 +16,13 @@ const SiteNavbar = ({buttonBlock,darkLogo,customLogo,defaultLogo}) => {
           {defaultLogo ? (<img src={defaultLogo.src} alt="site-brand"/>) : customLogo ? (
             <img src={customLogo.src} alt="site-brand" />
           ) : (
-            <img src={darkLogo ? "image/logo/logo-dark.png" : "image/logo/logo-white.png"} alt="site-brand"/>
+            <img src="image/logo/logo.png" alt="site-brand" height={64}/>
           )}
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           className="hamburgur"
+          style={{ backgroundColor: '#333333' }}
         />
         <Menu button={buttonBlock}/>
       </Navbar>

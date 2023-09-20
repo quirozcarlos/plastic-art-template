@@ -13,13 +13,13 @@ export default function VideoSection() {
               data-aos-duration={800}
             >
               <img
-                src="./image/about/video.png"
+                src="./image/school/salon2.jpeg"
                 alt="content-image"
                 className="w-100"
               />
               <div className="video-button-block">
                 <Video
-                  id="LWZ7iytIA6k"
+                  id="h9WJgu6OnLI"
                   className="video-btn popup-btn video-btn-1 text-primary bg-white"
                 >
                   <i className="fas fa-play" />
@@ -37,17 +37,11 @@ export default function VideoSection() {
               data-aos-duration={800}
             >
               <h2 className="title">
-                Starting with Custer <br /> is easier than anything!
+                ¡Un placer conocerte!
               </h2>
               <p className="text-dark">
-                Vero homero perfecto mei ut, sonet aperiam an nec. Ni nec dict
-                altera legimu. Me vita de lege ndos expet end is ad. Ex mei
-                omita aliu mi ando, haeo tibi que com titure viset cut.Proin
-                tempus elit a laoreet volut pat.{" "}
+                La Escuela de Artes Plásticas Valentín Hernández Useche es una Institución  de carácter vocacional que forma jóvenes valores, brindándoles una educación teórico- práctica, con un gran sentido de valoración  estético-artístico, con dominio de la representación bidimensional y tridimensional, así como en las diversas técnicas de interpretación y representación plásticas del arte, ayudando a concebir una cultura e identidad nacional, participará en la solución de los problemas sociales y culturales relacionados con el área plástica y estará abierta a las diversas corrientes de las Artes y las nuevas tecnologías.
               </p>
-              <a href="#" className="btn btn-l1 btn-primary btn-primary-hvr">
-                Download Now
-              </a>
             </div>
           </div>
         </div>

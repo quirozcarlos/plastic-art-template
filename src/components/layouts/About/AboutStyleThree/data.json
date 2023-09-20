@@ -1,20 +1,20 @@
 [
     {
       "id":"al061",
-      "title":"Best Performance",
-      "iconImage":"./image/home-6/icon-1.svg",
-      "text":"With lots of unique blocks you can easily create a page without coding with Custer"
+      "title":"Limitado desarrollo artístico en el Táchira en los años sesenta",
+      "iconImage":"./image/home-6/icon-check.svg",
+      "text":"El Táchira en la década de los sesenta tenía pocos vínculos artísticos con la región capital y carecía de una actividad artística significativa en comparación con otras ciudades cercanas a la capital."
     },
     {
       "id":"al062",
-      "title":"Real Time Zone",
-      "iconImage":"./image/home-6/icon-2.svg",
-      "text":"With lots of unique blocks you can easily create a page without coding with Custer"
+      "title":"Orígenes de la Escuela de Artes Plásticas de San Cristóbal",
+      "iconImage":"./image/home-6/icon-check.svg",
+      "text":"La Escuela de Artes Plásticas de San Cristóbal tuvo su principal antecedente en el taller de artes y oficios de Capacho, creado por el Gobernador Abel Montilla, y en la formación artística del estudiante Valentín Hernández Useche en ese taller."
     },
     {
       "id":"al063",
-      "title":"Powerful & Fully Secured",
-      "iconImage":"./image/home-6/icon-3.svg",
-      "text":"With lots of unique blocks you can easily create a page without coding with Custer"
+      "title":"Impulso a la pintura en el Táchira a través de \"La Cueva Pictórica.\"",
+      "iconImage":"./image/home-6/icon-check.svg",
+      "text":"La creación de la Escuela de Artes Plásticas de San Cristóbal en 1962 bajo la gestión del gobernador Edilberto Escalante tuvo como objetivo impulsar la actividad pictórica en la región, a pesar de la precariedad en el desarrollo artístico en ese momento, dando lugar a la formación de la agrupación pictórica \"La Cueva Pictórica\", que buscaba renovar la pintura en la región."
     }
   ]

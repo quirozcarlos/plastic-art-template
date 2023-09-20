@@ -1,8 +1,8 @@
 import React from 'react'
- 
+
 const TeamCard = ({text,image,title}) => {
 return(
-<a href="/#" className="card card-team-01">
+<a className="card card-team-01">
   <div className="card-image">
     <img src={image} alt="card" />
   </div>
@@ -14,5 +14,5 @@ return(
 
 )
 }
- 
+
 export default TeamCard

@@ -14,7 +14,6 @@ const FactSection = ({ className }) => {
               >
                 <WidgetCounter
                   className="widget-column-center widget-counter"
-                  // titleclassName={colorClass}
                   title={title}
                   text={text}
                 />

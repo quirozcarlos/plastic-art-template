@@ -1,20 +1,38 @@
 [
     {"id":"f0401",
-      "title": "Innovative Soluation ",
-      "iconWrapperClass": "bg-secondary",
-      "iconImage": "./image/home-4/f-widget-icon-1.svg",
-      "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere dolores laboriosam."
-    },
-    {"id":"f0402",
-      "title": "Clear Navigation",
-      "iconWrapperClass": "bg-primary",
-      "iconImage": "./image/home-4/f-widget-icon-2.svg",
-      "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere dolores laboriosam."
-    },
-    {"id":"f0403",
-      "title": "Over 800 Clients",
+      "title": "Las distintas disciplinas para la práctica de las Artes Plásticas.",
       "iconWrapperClass": "bg-yellow",
       "iconImage": "./image/home-4/f-widget-icon-3.svg",
-      "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere dolores laboriosam."
+      "text": ""
+    },
+    {"id":"f0402",
+      "title": "El origen y evolución de las Artes Plásticas a través de la Historia.",
+      "iconWrapperClass": "bg-yellow",
+      "iconImage": "./image/home-4/f-widget-icon-3.svg",
+      "text": ""
+    },
+    {"id":"f0403",
+      "title": "Las distintas técnicas, materiales y procesos en la realización de las obras plásticas.",
+      "iconWrapperClass": "bg-yellow",
+      "iconImage": "./image/home-4/f-widget-icon-3.svg",
+      "text": ""
+    },
+    {"id":"f0404",
+      "title": "Desarrollará sus capacidades creativas y estéticas en la producción plástica.",
+      "iconWrapperClass": "bg-yellow",
+      "iconImage": "./image/home-4/f-widget-icon-3.svg",
+      "text": ""
+    },
+    {"id":"f0405",
+      "title": "Comprenderá la importancia de la inserción de la obra plástica en la construcción social.",
+      "iconWrapperClass": "bg-yellow",
+      "iconImage": "./image/home-4/f-widget-icon-3.svg",
+      "text": ""
+    },
+    {"id":"f0406",
+      "title": "Comprenderá la importancia de la investigación para la invención plástica.",
+      "iconWrapperClass": "bg-yellow",
+      "iconImage": "./image/home-4/f-widget-icon-3.svg",
+      "text": ""
     }
   ]

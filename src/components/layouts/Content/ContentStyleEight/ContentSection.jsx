@@ -6,18 +6,33 @@ import ContentBlock from "./ContentBlock";
 const tabItemsData = [
   {
     id: "first",
-    navItem: "App security",
-    tabContent: <ContentBlock />,
+    navItem: "Talleres",
+    tabContent: <ContentBlock
+      img1a={"./image/school/taller4.jpeg"}
+      img1b={"./image/school/taller1a.jpeg"}
+      img2a={"./image/school/cuadro4.jpeg"}
+      img2b={"./image/school/cuadro2.jpeg"}
+    />,
   },
   {
     id: "second",
-    navItem: "Continuous monitoring",
-    tabContent: <ContentBlock />,
+    navItem: "Salones",
+    tabContent: <ContentBlock
+      img1a={"./image/school/taller2.jpeg"}
+      img1b={"./image/school/taller2a.jpeg"}
+      img2a={"./image/school/salon3.jpeg"}
+      img2b={"./image/school/salon3a.jpeg"}
+    />,
   },
   {
     id: "third",
-    navItem: "Data storage",
-    tabContent: <ContentBlock />,
+    navItem: "Espacios Creativos",
+    tabContent: <ContentBlock
+      img1a={"./image/school/taller3.jpeg"}
+      img1b={"./image/school/cuadro1.jpeg"}
+      img2a={"./image/school/taller1.jpeg"}
+      img2b={"./image/school/cuadro3.jpeg"}
+    />,
   },
 ];
 

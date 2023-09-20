@@ -1,26 +1,50 @@
 [
     {
       "id": 1,
-      "img": "./image/home-1/team-1.png",
-      "title": "Cameron Williamson",
-      "text": "Co -Founder"
+      "img": "./image/artworks/obra1.jpg",
+      "title": "El Antipoema",
+      "text": "Autor: Manuel Garcia"
     },
     {
       "id": 2,
-      "img": "./image/home-1/team-2.png",
-      "title": "Brooklyn Simmons",
-      "text": "Project Manager"
+      "img": "./image/artworks/obra2.jpg",
+      "title": "Corazón de Ciervo",
+      "text": "Autor: Ronalt Ruiz"
     },
     {
       "id": 3,
-      "img": "./image/home-1/team-3.png",
-      "title": "Robert Fox",
-      "text": "Web Designer"
+      "img": "./image/artworks/obra3.jpg",
+      "title": "",
+      "text": "Autor: Rafael Ibarra"
     },
     {
       "id": 4,
-      "img": "./image/home-1/team-4.png",
-      "title": "Esther Howard",
-      "text": "HR Manager"
+      "img": "./image/artworks/obra4.jpg",
+      "title": "MNML (MINIMAL)",
+      "text": "Autor: Oscar Zuleta"
+    },
+    {
+      "id": 5,
+      "img": "./image/artworks/obra5.jpg",
+      "title": "Los ojos del lamento",
+      "text": "Autor: Katherin Quiroz"
+    },
+    {
+      "id": 6,
+      "img": "./image/artworks/obra6.jpg",
+      "title": "The eye",
+      "text": "Autor: Mayra Silva"
+    },
+    {
+      "id": 7,
+      "img": "./image/artworks/obra7.jpg",
+      "title": "Un paseo por la mente de Valentín",
+      "text": "Autor: Guillermo Gutiérrez"
+    },
+    {
+      "id": 8,
+      "img": "./image/artworks/obra8.jpg",
+      "title": "Belleza del bosque",
+      "text": "Autor: Mateo Martínez"
     }
   ]

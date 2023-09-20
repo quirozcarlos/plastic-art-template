@@ -4,57 +4,36 @@
         "active":false,
         "price":5,
         "priceIcon":"./image/home-4/price-icon-1.svg",
-        "plan": "Starter Plan",
+        "plan": "Arte Puro",
+        "subtitle": "A partir de los 16 años",
         "list": [
             {
                 "id": "pl100",
-                "text": "800 GB Disk Space"
+                "text": "Foto del alumno."
             },
             {
                 "id": "pl101",
-                "text": "Unlimited Support"
+                "text": "Partida de nacimiento original y copia."
             },
             {
                 "id": "pl102",
-                "text": "Unlimited Support"
+                "text": "Notas certificadas originales y copia."
             },
             {
                 "id": "pl103",
-                "text": "Full Statistics"
+                "text": "Copia de la cedula de identidad."
             },
             {
                 "id": "pl104",
-                "text": "Free Custom Domain"
-            }
-        ]
-    },
-    {
-        "id":"p012",
-        "active":true,
-        "price":45,
-        "priceIcon":"./image/home-4/price-icon-2.svg",
-        "plan": "Basic Plan",
-
-        "list": [
-            {
-                "id": "pl100",
-                "text": "800 GB Disk Space"
+                "text": "Carpeta marrón con gancho."
             },
             {
-                "id": "pl101",
-                "text": "Unlimited Support"
+                "id": "pl105",
+                "text": "Copia de la cedula del representante."
             },
             {
-                "id": "pl102",
-                "text": "Unlimited Support"
-            },
-            {
-                "id": "pl103",
-                "text": "Full Statistics"
-            },
-            {
-                "id": "pl104",
-                "text": "Free Custom Domain"
+                "id": "pl106",
+                "text": "Foto del representante legal."
             }
         ]
     },
@@ -63,27 +42,32 @@
         "active":false,
         "price":120,
         "priceIcon":"./image/home-4/price-icon-3.svg",
-        "plan": "Premium Plan",
+        "plan": "Curso Libre",
+        "subtitle": "A partir de los 7 años",
         "list": [
             {
                 "id": "pl100",
-                "text": "800 GB Disk Space"
+                "text": "Foto del alumno."
             },
             {
                 "id": "pl101",
-                "text": "Unlimited Support"
+                "text": "Partida de nacimiento original y copia, si no tiene cedula."
             },
             {
                 "id": "pl102",
-                "text": "Unlimited Support"
+                "text": "Copia de la cedula de identidad."
             },
             {
                 "id": "pl103",
-                "text": "Full Statistics"
+                "text": "Carpeta amarrilla con gancho."
             },
             {
                 "id": "pl104",
-                "text": "Free Custom Domain"
+                "text": "Copia de la cedula del representante. "
+            },
+            {
+                "id": "pl105",
+                "text": "Foto del representante legal."
             }
         ]
     }
