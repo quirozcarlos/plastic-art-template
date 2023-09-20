@@ -3,12 +3,14 @@ import { Col, Container, Nav, Navbar, NavDropdown, Row } from "react-bootstrap";
 import { menuItems } from "../../../data/menudata";
 import Link from "../Link";
 import { useRouter } from "next/router";
+import { useWindowSize } from "src/hooks/useWindowSize";
 
 const isObject = function (a) {
   return !!a && a.constructor === Object;
 };
 const Menu = ({ button, ...rest }) => {
   const router = useRouter();
+  const windowSize = useWindowSize()
 
   return (
     <>
@@ -288,7 +290,7 @@ const Menu = ({ button, ...rest }) => {
                                 router.asPath === `/${name}`
                                   ? "underline"
                                   : "none",
-                              color: router.asPath === "/" ? "#333333" : "#FFFFFF"
+                              color: windowSize.width < 992 ? '#333333' : router.asPath === "/" ? "#333333" : "#FFFFFF"
                             }}
                           >
                             {label}

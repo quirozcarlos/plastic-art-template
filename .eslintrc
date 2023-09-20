@@ -1,6 +1,6 @@
 
 {"parser": "@babel/eslint-parser",
     "rules": {
-        "requireConfigFile": false,
+        "requireConfigFile": 0,
         "react-hooks/exhaustive-deps": "off"
       }}
